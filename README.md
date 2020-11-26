@@ -1,6 +1,6 @@
 # Positioning and floating
 
-A New York Times webpage replicate
+A New York Times webpage replicate project
 
 <img width="938" alt="snippet" src="https://user-images.githubusercontent.com/58818795/100392819-9c89dc80-2fec-11eb-860c-b650decc36bb.png">
 
