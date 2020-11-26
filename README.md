@@ -2,36 +2,17 @@
 
 A New York Times webpage replicate
 
-```html
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <div class="wrap">
-                <img src="snippet.PNG">
-            </div>
-        </div>
-    </div>
-</pre>
-```
-Built With
-Major languages
-Frameworks
-Technologies used
-Live Demo
-Live Demo Link
+Built With:
 
-Getting Started
-This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+HTML
+CSS
 
-To get a local copy up and running follow these simple example steps.
+Live Demo Link: https://gracetemitope.github.io/Positioning-project/
 
-Prerequisites
-Setup
-Install
-Usage
-Run tests
-Deployment
+
 Authors
+
+👤 Author1
 
 GitHub: @Gracetemitope
 Twitter: @DevGrachy
