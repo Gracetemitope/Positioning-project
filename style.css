@@ -7,7 +7,6 @@ main {
 }
 
 header {
-  top: 0;
   display: flex;
   width: 100%;
   background-color: rgb(254, 254, 255);
@@ -46,7 +45,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-}
+} 
 
 .inflation-container {
   width: auto;
@@ -67,4 +66,81 @@ button {
 img {
   width: 220px;
   margin-bottom: 8px;
+}
+
+footer {
+  margin-top: 60px;
+  height: 100vh;
+  border-top: 3px solid grey;
+  border-bottom: 1px solid black;
+}
+
+.footer-header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  height: inherit;
+}
+
+.footer-link {
+  display: flex;
+  flex-basis: 200px;
+  justify-content: space-between;
+  flex-direction: column;  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+  transition: all 1.4s ease-out;
+}
+
+.footer-link a {
+  margin-bottom: 8px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer-text a {
+  color: grey;
+  font-size: 12px;
+}
+
+.border-top {
+  margin-top: 10px;
+  border-top: 0.5px solid lightgray;
+}
+
+.space {
+  margin-top: 30px;
+  margin-left: 30%;
+}
+
+.space h2 {
+  text-align: justify;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.center-article {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+  text-align: justify;
 }
