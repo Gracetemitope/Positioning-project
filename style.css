@@ -1,6 +1,70 @@
 body {
-  margin: 0px;
+  box-sizing: border-box;
 }
-h1 {
-    
+
+main {
+  padding: 50px;
+}
+
+header {
+  top: 0;
+  display: flex;
+  width: 100%;
+  background-color: rgb(254, 254, 255);
+  position: fixed;
+  height: 50px;
+  box-shadow: 2px 2px rgb(247, 242, 242);
+}
+
+header ul {
+  list-style: none;
+  display: inline-flex;
+  width: inherit;
+  justify-content: space-between;
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+#center {
+  flex-basis: 550px;
+  margin-left: 30px;
+}
+
+button {
+  color: white;
+  background-color: rgb(7, 53, 114);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.inflation-container {
+  width: auto;
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+
+.inflation-item {
+  flex-basis: 280px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 220px;
+  margin-bottom: 8px;
 }
