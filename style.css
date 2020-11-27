@@ -6,6 +6,10 @@ main {
   padding: 50px;
 }
 
+.video {
+  height: 350px;
+}
+
 header {
   display: flex;
   top: 0;
