@@ -8,6 +8,7 @@ main {
 
 header {
   display: flex;
+  top: 0;
   width: 100%;
   background-color: rgb(254, 254, 255);
   position: fixed;
@@ -45,7 +46,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-} 
+}
 
 .inflation-container {
   width: auto;
@@ -91,7 +92,7 @@ footer {
   display: flex;
   flex-basis: 200px;
   justify-content: space-between;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 a {
@@ -143,4 +144,47 @@ a:hover {
   font-size: 1.2rem;
   line-height: 2.3rem;
   text-align: justify;
+}
+
+.border-top2 {
+  border: 0.5px solid grey;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.related {
+  display: flex;
+  height: 100vh;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.space-astro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.astro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  flex-basis: 250px;
+}
+
+.editorial {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.editorial > div {
+  flex-basis: 280px;
+}
+
+.border-top1 {
+  width: 250px;
+  border-top: 1px solid grey;
 }
