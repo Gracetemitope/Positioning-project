@@ -50,7 +50,7 @@ button {
   margin-left: -30px;
 }
 
-#btn {
+.btn {
   color: black;
   background-color: white;
   outline: none;
@@ -155,7 +155,7 @@ footer {
   flex-direction: column;
 }
 
-#footlink {
+.footlink {
   text-decoration: none;
   color: black;
 }
