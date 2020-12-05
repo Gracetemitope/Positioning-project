@@ -1,0 +1,325 @@
+body {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 50px;
+}
+
+.video {
+  height: 350px;
+}
+
+header {
+  display: flex;
+  top: 0;
+  width: 100%;
+  background-color: rgb(254, 254, 255);
+  position: fixed;
+  height: 50px;
+  box-shadow: 2px 2px rgb(247, 242, 242);
+}
+
+header ul {
+  list-style: none;
+  display: inline-flex;
+  width: inherit;
+  justify-content: space-between;
+  font-size: 24px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+#center {
+  flex-basis: 550px;
+  margin-left: 30px;
+}
+
+button {
+  color: white;
+  background-color: rgb(115, 156, 209);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#login-button {
+  margin-left: -40px;
+}
+
+.btn {
+  color: black;
+  background-color: white;
+  outline: none;
+  font-size: 1.4rem;
+  border: none;
+  margin-top: -5px;
+}
+
+.fa-search {
+  font-size: 1.4rem;
+  margin-left: -25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.small-border {
+  border-top: 1px solid grey;
+  width: 75px;
+  margin-left: 45%;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fonts {
+  display: flex;
+  flex-basis: 300px;
+  justify-content: space-between;
+}
+
+.icon-container {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgrey;
+}
+
+.icon-container i {
+  margin: 10px;
+  font-size: 16px;
+}
+
+.inflation-container {
+  width: auto;
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+
+.inflation-item {
+  flex-basis: 280px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.solid-border {
+  border-top: 1px solid lightgrey;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.content-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content1 {
+  flex-basis: 500px;
+}
+
+img {
+  width: 220px;
+  margin-bottom: 8px;
+}
+
+footer {
+  margin-top: 60px;
+  height: 100vh;
+  border-top: 3px solid grey;
+}
+
+.footer-header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  height: inherit;
+}
+
+.footer-link {
+  display: flex;
+  flex-basis: 200px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footlink {
+  text-decoration: none;
+  color: black;
+}
+
+.border-left {
+  border: 0.5px solid lightgrey;
+  height: 400px;
+  width: 0;
+  margin-right: 10px;
+  margin-top: 23px;
+}
+
+a:hover {
+  color: blue;
+  transition: all 1.4s ease-out;
+}
+
+.footer-link a {
+  margin-bottom: 8px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer-text a {
+  color: grey;
+  font-size: 12px;
+}
+
+.border-top {
+  margin-top: 10px;
+  border-top: 0.5px solid lightgray;
+}
+
+.space {
+  margin-top: 30px;
+  margin-left: 30%;
+}
+
+.space h2 {
+  text-align: justify;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.center-article {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+  text-align: justify;
+}
+
+.border-top2 {
+  border: 0.5px solid grey;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.related {
+  display: flex;
+  height: 100vh;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.space-astro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.astro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  flex-basis: 250px;
+}
+
+.editorial {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.editorial > div {
+  flex-basis: 280px;
+}
+
+.border-top1 {
+  width: 250px;
+  border-top: 1px solid grey;
+}
+
+.footer-static {
+  border-top: 0.5px solid black;
+  margin-top: 40px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: white;
+}
+
+.footer-static p {
+  text-align: center;
+}
+
+.heading {
+  margin-left: -55px;
+}
+
+.editor {
+  display: flex;
+  justify-content: space-between;
+  right: 0;
+  padding: 0;
+}
+
+.editor-pick {
+  flex-basis: 350px;
+  margin-right: -30%;
+  margin-top: -50px;
+}
+
+.editor1 {
+  flex: 2;
+}
+
+.editor-contain {
+  display: flex;
+}
+
+.editor-background {
+  width: 120px;
+  height: 100px;
+  border: 1px solid black;
+  background-position: center;
+  background-image: url("./assets/flex-8.jpg");
+}
